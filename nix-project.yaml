@@ -1,0 +1,6 @@
+nix-project-tool:
+  expression: "let nixpkgs = import ./deps/nixpkgs {}; in nixpkgs.callPackage (nixpkgs.fetchFromGitHub {
+    owner = ''roberth'';
+    repo = ''np-npm'';
+    rev = ''89ff198473abacf10f9fac8a395a2648e91a9649'';
+    sha256 = ''19x74b38fjlkkbylj0kqv1hq1gqxfmyj95zppvg04db5i38g2bvs''; }) {}"

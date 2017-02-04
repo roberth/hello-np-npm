@@ -1,0 +1,17 @@
+{
+  "name": "hello-np-npm",
+  "version": "1.0.0",
+  "description": "Demonstration of np-npm",
+  "main": "index.js",
+  "bin": {
+    "hello": "index.js"
+    },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Robert Hensing",
+  "license": "ISC",
+  "dependencies": {
+    "left-pad": ">= 1.0.0"
+    }
+}
